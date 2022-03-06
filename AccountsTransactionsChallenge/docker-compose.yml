@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  accountstransactionschallenge:
+    image: ${DOCKER_REGISTRY-}accountstransactionschallenge
+    build:
+      context: .
+      dockerfile: AccountsTransactionsChallenge/Dockerfile
